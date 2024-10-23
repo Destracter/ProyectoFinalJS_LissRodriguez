@@ -1,0 +1,182 @@
+[
+    { "id":"rtx-4060",
+      "titulo": "RTX-4060",
+      "precio": 300,
+      "img": "./multimedia/rtx4060.jpg",
+      "categoria":{
+        "nombre":"Tarjetas Graficas",
+          "id":"tarjetas-graficas"
+      }
+    },
+    { "id":"rtx-4070",
+      "titulo": "RTX-4070",
+      "precio": 550,
+      "img": "./multimedia/rtx4070.jpg",
+      "categoria":{
+        "nombre":"Tarjetas Graficas",
+          "id":"tarjetas-graficas"
+      }
+    },
+    { "id": "rtx-4080" , 
+      "titulo": "RTX-4080",
+      "precio": 1000,
+      "img": "./multimedia/rtx4080.jpg",
+      "categoria":{
+        "nombre":"Tarjetas Graficas",
+          "id":"tarjetas-graficas"
+      }
+    },
+    { "id": "rtx-4090",
+      "titulo": "RTX-4090",
+      "precio": 2000,
+      "img": "./multimedia/rtx4090.jpg",
+      "categoria":{
+        "nombre":"Tarjetas Graficas",
+          "id":"tarjetas-graficas"
+      }
+    },
+    { "id":"adatavme1tb",
+      "titulo":"SSD Adata NVME 1TB PCI 4.0",
+      "img": "./multimedia/adatanvme1tb.jpg",
+      "precio": 100,
+      "categoria":{
+        "nombre":"Almacenamiento",
+          "id":"almacenamiento"
+      }
+    },
+    {"id":"hinyxnvme2tb",
+      "titulo":"SSD Hinyx NVME 2TB PCI 4.0",
+      "img": "./multimedia/hinyxnvme2tb.jpg",
+      "precio": 200,
+      "categoria":{
+        "nombre":"Almacenamiento",
+          "id":"almacenamiento"
+      }
+    },
+    {"id":"asusrogz790intel",
+      "titulo":"Mother Asus Rog z790 Intel",
+      "img": "./multimedia/asusrogz790intel.jpg",
+      "precio": 750,
+      "categoria":{
+        "nombre":"Mothers",
+          "id":"mothers"
+      }
+    },
+    {"id":"asustufa620am5",
+      "titulo":"Mother Asus Tuf a620 AM5 AMD",
+      "img": "./multimedia/asustufa620am5.jpg",
+      "precio": 450,
+      "categoria":{
+        "nombre":"Mothers",
+          "id":"mothers"
+      }
+    },
+    {"id":"deepcool600wbronze",
+      "titulo":"Fuente Deepcool 600w PLUS Bronze",
+      "img": "./multimedia/deepcool600wbronze.jpg",
+      "precio": 90,
+      "categoria":{
+        "nombre":"Fuentes",
+          "id":"fuentes"
+      }
+    },
+    {"id":"corsairsfx850wgold",
+      "titulo":"Fuente Corsair 850w PLUS Gold",
+      "img": "./multimedia/corsairsfx850wgold.jpg",
+      "precio": 150,
+      "categoria":{
+        "nombre":"Fuentes",
+          "id":"fuentes"
+      }
+    },
+    {"id":"i714700k",
+      "titulo":"Procesador Intel i714700k",
+      "img": "./multimedia/i714700k.jpg",
+      "precio": 500,
+      "categoria":{
+        "nombre":"Procesadores",
+        "id": "procesadores"
+      }
+    },
+    {"id":"i914900k",
+      "titulo":"Procesador Intel i914900k",
+      "img": "./multimedia/i914900k.jpg",
+      "precio": 780,
+      "categoria":{
+        "nombre":"Procesadores",
+        "id": "procesadores"
+      }
+    },
+    {"id":"ryzen59600x",
+      "titulo":"Procesador AMD Ryzen 5 9600x",
+      "img": "./multimedia/ryzen59600x.jpg",
+      "precio": 300,
+      "categoria":{
+        "nombre":"Procesadores",
+        "id": "procesadores"
+      }
+    },
+    {"id":"ryzen78700g",
+      "titulo":"Procesador AMD Ryzen 7 8700g",
+      "img": "./multimedia/ryzen78700g.jpg",
+      "precio": 450,
+      "categoria":{
+        "nombre":"Procesadores",
+        "id": "procesadores"
+      }
+    },
+    {"id":"patriot32gbddr4",
+      "titulo":"32 gb de RAM DDR4 Patriot Viper 3600mhz",
+      "img": "./multimedia/patriot32gbddr4.jpg",
+      "precio": 100,
+      "categoria":{
+        "nombre":"Memorias RAM",
+        "id": "RAM"
+      }
+    },
+    {"id":"team32gbddr5",
+      "titulo":"32 gb de RAM DDR5 Team 6000mhz",
+      "img": "./multimedia/team32gbddr5.jpg",
+      "precio": 150,
+      "categoria":{
+        "nombre":"Memorias RAM",
+        "id": "RAM"
+      }
+    },
+    {"id":"samsungips24",
+      "titulo":"Monitor Gamer IPS 24 Pulgadas Samsung",
+      "img": "./multimedia/samsungips24.jpg",
+      "precio": 140,
+      "categoria":{
+        "nombre":"Monitores",
+        "id": "monitores"
+      }
+    },
+    {"id":"samsung34",
+      "titulo":"Monitor Gamer  OLED 34 Pulgadas Samsung",
+      "img": "./multimedia/samsung34.jpg",
+      "precio": 2500,
+      "categoria":{
+        "nombre":"Monitores",
+        "id": "monitores"
+      }
+    },
+    {"id":"corsairatx",
+       "titulo": "Gabinete Corsair ATX",
+       "img":"./multimedia/corsairatx.jpg",
+       "precio": 110,
+       "categoria":{
+        "nombre":"Gabinetes",
+        "id": "gabinete"
+       }
+    },
+    {"id":"lianlisfx-sfx-li-tx",
+       "titulo":"Gabinete Lian Li sfx-li-tx",
+       "img":"./multimedia/lianlisfx-sfx-li-tx.jpg",
+       "precio": 130,
+       "categoria":{
+        "nombre":"Gabinetes",
+        "id": "gabinete"
+       }
+    }
+  ]

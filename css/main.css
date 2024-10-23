@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col {
+    align-items: center;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carrito {
+    background-color: #ffffff;
+    border-radius: .25rem;
+}
+
+.carrito-tarjeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: .75rem;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+}
+
+.carrito-tarjeta h3, .carrito-tarjeta p {
+    margin: 0;
+}
+
+.carrito-tarjeta-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #ffffff;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carrito-tarjeta-btn:hover {
+    background-color: #c82333;
+}
+
+.carrito-comprar-btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #a72828;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carrito-comprar-btn:hover {
+    background-color: #882121;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    margin-right: 5px;
+}
+
+.img-logo {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    flex: 1;
+}
+
+.main {
+    padding-block: 1rem;
+    background-image: url('multimedia/fondo.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.titulo {
+    margin-bottom: 1rem;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.tarjeta {
+    background-color: black;
+    padding: .5rem;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.tarjeta-img {
+    border-radius: .50rem;
+}
+
+.tarjeta-btn {
+    border-radius: .50rem;
+    border: 0;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    padding: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    border: 2px solid aliceblue;
+    transition: .2s;
+}
+
+.tarjeta-btn:hover {
+    background-color: rgb(255, 251, 251);
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ .carrito-tarjetas {display: flex;
+     flex-direction: column;
+     gap: .5rem;
+ }
+ .carrito-tarjeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: .75rem;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+}
+.carrito-tarjeta-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #ffffff;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+                
+ 
+ .d-none {display: none;}
+
+ .carrito-comprar-btn {
+    border-radius: .5rem;
+    border: 0;
+    background-color: rgb(122, 0, 0);
+    color: white;
+    padding: .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    transition: .2s;
+}
+
+.carrito-comprar-btn:hover {
+    background-color: rgb(255, 5, 5);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.boton-menu {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #ff0000;
+    border-radius: 25px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.boton-menu:hover {
+    background-color: white;
+    color: #ff0000;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+.boton-menu.active {
+    background-color: #d40000;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+
