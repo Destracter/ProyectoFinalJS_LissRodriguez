@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
  .carrito-comprar-btn {
     border-radius: .5rem;
     border: 0;
-    background-color: rgb(122, 0, 0);
+    background-color: rgb(243, 4, 4);
     color: white;
     padding: .5rem;
     margin-top: 1rem;
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carrito-comprar-btn:hover {
-    background-color: rgb(255, 5, 5);
+    background-color: rgb(168, 1, 1);
     color: white;
     font-weight: 600;
     letter-spacing: 1px;
@@ -229,6 +229,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
 }
+
 .footer {
     background-color: black;
     color: white;
@@ -243,3 +244,24 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-size: 1rem;
 }
+
+.carrito-img {
+    width: 50px;
+    height: auto;
+}
+
+#vaciar-carrito {
+    background-color: #f7061a; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+#vaciar-carrito:hover {
+    background-color: #8a0009; 
+}
+

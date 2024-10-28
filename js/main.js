@@ -68,6 +68,7 @@ function actualizarcarrito() {
             let div = document.createElement("div");
             div.classList.add("carrito-tarjeta");
             div.innerHTML = `
+                <img class="carrito-img" src=${tarjeta.img} alt=${tarjeta.titulo}>
                 <h3>${tarjeta.titulo}</h3>
                 <p>$${tarjeta.precio}</p>
                 <p>Cant: ${tarjeta.cantidad}</p>
@@ -87,6 +88,7 @@ function actualizarcarrito() {
         carritoTarjetas.append(comprarButton);
     }
 }
+
 
 async function comprar() {
     try {
@@ -184,4 +186,20 @@ function cargarCarrito() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", cargarCarrito);
+
+document.addEventListener("DOMContentLoaded", () => {
+    cargarCarrito();
+    document.getElementById("vaciar-carrito").addEventListener("click", () => {
+        carrito = [];
+        actualizarcarrito();
+        actualizarTotal();
+        guardarCarrito();
+        Toastify({
+            text: "Carrito vaciado",
+            duration: 3000,
+            style: {
+                background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+            },
+        }).showToast();
+    });
+});
