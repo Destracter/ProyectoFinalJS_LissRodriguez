@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     padding-block: 1rem;
-    background-image: url('multimedia/fondo.png'); 
+    background-image: url('/multimedia/fondo.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .titulo {
     margin-bottom: 1rem;
+    color: #ffffff;
 }
 
 .tarjetas {
