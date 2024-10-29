@@ -19,6 +19,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 .col {
@@ -107,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     padding-block: 1rem;
-    background-image: url('/multimedia/fondo.png'); 
+    background-image: url('/multimedia/fondo.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -232,18 +233,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    background-color: black;
+    background-color: #520202;
     color: white;
-    text-align: center;
     padding: 1rem 0;
+    text-align: center;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
-.footer p {
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-info p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.875rem;
+}
+
+.footer-info a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-info a:hover {
+    color: #3498db;
 }
 
 .carrito-img {
@@ -265,4 +287,3 @@ h1, h2, h3, h4, h5, h6 {
 #vaciar-carrito:hover {
     background-color: #8a0009; 
 }
-
